@@ -57,6 +57,7 @@ header{
 }
 .card img{
     width: 100%;
+    max-width: 330px;
 }
 .card__body{
     display: flex;
@@ -120,7 +121,6 @@ header{
         flex-direction: row;
     }
     .card img{
-        max-width: 330px;
         margin: 0;
     }
     .card__body{
