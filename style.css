@@ -121,10 +121,20 @@ header{
         flex-direction: row;
     }
     .card img{
-        margin: 0;
+        max-width: fit-content;
+        width: 50%;
     }
     .card__body{
         text-align: justify;
+        width: 50%;
+        gap: 2.5rem;
+        max-width: 500px;
+    }
+    .card__body-title{
+        font-size: 2.5rem;
+    }
+    .card__body-text{
+        font-size: 1.5rem;
     }
     .social-icons{
         align-self: flex-end;
