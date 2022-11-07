@@ -48,7 +48,6 @@ header{
 /** card body **/
 .card{
     width: 100%;
-    max-width: 370px;
     display: flex;
     justify-content: center;
     align-items: center;
